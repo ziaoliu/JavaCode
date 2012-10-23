@@ -2,6 +2,6 @@ package java.test;
 
 public class Test {
 	public static void main(String[] args) {
-		System.out.println("Hello World on Simon Machine");
+		System.out.println("Hello World on Simon Machine ");
 	}
 }
