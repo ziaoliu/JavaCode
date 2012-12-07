@@ -1,0 +1,5 @@
+commit code changes to the remote server in the network
+
+1. commit locally: right click on the changed file --> Team --> Commit...
+2. in the history view/list, right click the entry --> Push Commit 
+								--> next on the prompt --> enter the ref/branch desired (master in this case)
