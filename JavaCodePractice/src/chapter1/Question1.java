@@ -9,6 +9,9 @@ public class Question1 {
 	}
 
 	public static boolean method1() {
+		for (int i = 0; i < 100; i++) {
+
+		}
 		return true;
 	}
 
