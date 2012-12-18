@@ -7,4 +7,4 @@ commit code changes to the remote server in the network
 		new way to commit/checkout
 	for commit: right click the project --> team --> push to upstream, and then
 												 --> commit
-	for checkout: 
+  for checkout: right click the project --> team --> pull.
