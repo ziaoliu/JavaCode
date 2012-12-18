@@ -3,3 +3,8 @@ commit code changes to the remote server in the network
 1. commit locally: right click on the changed file --> Team --> Commit...
 2. in the history view/list, right click the entry --> Push Commit 
 								--> next on the prompt --> enter the ref/branch desired (master in this case)
+								
+		new way to commit/checkout
+	for commit: right click the project --> team --> push to upstream, and then
+												 --> commit
+	for checkout: 
