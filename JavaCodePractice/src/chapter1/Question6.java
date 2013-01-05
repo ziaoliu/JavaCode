@@ -1,5 +1,5 @@
 package chapter1;
-
+// rotate the n*n matrix
 public class Question6 {
 	private static int[][] mat = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } };
 
