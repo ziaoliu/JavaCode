@@ -1,6 +1,6 @@
 package test;
 
-public class MedianOfTwoSortedArrays_1x {
+public class MedianOfTwoSortedArrays_2x {
 	public class Solution {
 		public double findMedianSortedArrays(int[] nums1, int[] nums2) {
 			int m = nums1.length;
@@ -19,7 +19,7 @@ public class MedianOfTwoSortedArrays_1x {
 			int m = i2 - i + 1;
 			int n = j2 - j + 1;
 
-			if (m > n)
+			if (m < n)
 				return findKth(nums2, j, j2, nums1, i, i2, k);
 			if (m == 0)
 				return nums2[j + k - 1];
@@ -31,9 +31,9 @@ public class MedianOfTwoSortedArrays_1x {
 
 			// ??????????compare conditions!!!!!!!!!!!
 			if (nums1[i + a - 1] > nums2[j + b - 1])
-				return findKth(nums1, i, i + a - 1, nums2, j + b, j2, k - b);
+				return findKth(nums1, i, i + a - 1, nums2, j + b, j, k - b);
 			else if (nums1[i + a - 1] < nums2[j + b - 1])
-				return findKth(nums1, i + a, i2, nums2, j, j + b - 1, k - a);
+				return findKth(nums1, i + a, i, nums2, j, j + b - 1, k - b);
 			else
 				return nums1[i + a - 1];
 		}
