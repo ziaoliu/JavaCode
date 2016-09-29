@@ -1,6 +1,6 @@
 package leetcode;
 
-public class Q002_AdTwoNumbers {
+public class Q002_AddTwoNumbers {
 	public class Solution {
 		public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 			ListNode result = new ListNode(-1);
@@ -26,7 +26,7 @@ public class Q002_AdTwoNumbers {
 					l2 = l2.next;
 				}
 				int sum = a + b + carryover;
-				if (sum > 10) {
+				if (sum >= 10) {
 					sum = sum - 10;
 					carryover = 1;
 				} else
